@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import SiteRouter from './components/siteRouter';
-import Layout from './components/layout/layout';
+import SiteRouter from './siteRouter/siteRouter';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 
 root.render(
     <>
-        <Layout>
-            <SiteRouter/>
-        </Layout>
+          <SiteRouter/>  
     </>
 );
 
